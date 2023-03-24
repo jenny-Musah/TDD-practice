@@ -8,8 +8,8 @@ public class Account {
     public void withdraw(int amount){
         if(amount < balance && amount > 0) {
                 balance = balance - amount;
-        }else
-            System.out.println("Amount to withdraw is greater than your balance");
+        }
+        else System.out.println("Amount to withdraw is greater than your balance");
     }
 
     public int getBalance() {

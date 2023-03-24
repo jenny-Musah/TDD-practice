@@ -56,7 +56,7 @@ public class AccountTest {
         assertEquals(1_000, sultanAccount.getBalance());
     }
 
-    @Test
+ @Test
     @Name("test that you can not withdraw an amount greater than your balance")
     public void withdrawAmountGreaterThanBalanceTest(){
         sultanAccount.deposit(1_000);
